@@ -1,6 +1,7 @@
 import headerVisulationWaveSurfer from "./modules/headerAudio";
 import modifiedAudio              from "./modules/modifiedAudio";
 import soundMusic                 from "./modules/soundMusic";
+import cardAudio                  from "./modules/cardAudio";
 
 window.addEventListener("DOMContentLoaded", () => {
 
@@ -32,6 +33,6 @@ window.addEventListener("DOMContentLoaded", () => {
   });
 
   soundMusic("#soundAudio", ".player audio");
-
+  cardAudio();
 
 });
