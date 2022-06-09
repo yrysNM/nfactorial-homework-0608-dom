@@ -1,5 +1,5 @@
 {
-  "name": "food",
+  "name": "You DJ",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,11 +13,11 @@
   ],
   "devDependencies": {
     "json-server": "^0.16.1",
-    "wavesurfer.js": "^6.2.0",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "wavesurfer.js": "^6.2.0",
     "es6-promise": "^4.2.8",
     "nodelist-foreach-polyfill": "^1.2.0"
   }
